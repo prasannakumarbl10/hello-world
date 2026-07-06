@@ -38,7 +38,7 @@ jobs:
 
       - name: Deploy Application
         run: |
-          kubectl apply -f deployment.yaml
+          kubectl apply -f Deployment.yaml
           kubectl apply -f service.yaml
 
       - name: Verify Deployment
