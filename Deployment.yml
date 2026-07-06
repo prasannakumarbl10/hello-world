@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: hello-container
-        image: IMAGE_NAME 
+        image: prasanna25cs/hello-world:v1
         ports:
         - containerPort: 5000
